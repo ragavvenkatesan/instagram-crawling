@@ -66,10 +66,10 @@ if __name__ == '__main__':
     max_followers = 20                   # How many followers per user to collect
     max_follows = 20                     # how many follows to collect per user
     max_bfs_add = 25                     # how many BFS edges to add per user
-    max_collect_media = 100
-    max_collect_users = 20
-    verbose = True
-    collect_media_flag = 2 
+    max_collect_media = 100              # how many media items to be collected per person ?
+    max_collect_users = 20               # how many users in all to collect.
+    verbose = True                       # Don't be a silent code and keep printing stuff. 
+    collect_media_flag = 2               # =2 means collect images and everything, = 1 means collect only images, = 0 means just collect information. 
 
     client_id = ' '          # user your client id
     client_secret = ' '      # user your client secret id
