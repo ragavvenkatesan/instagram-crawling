@@ -14,11 +14,7 @@ import instagram_stuff as ist
 
 
 def main():
-    
 
-    max_collect_users = 20
-    verbose = True
-    collect_media_flag = 2 
     
     
     stack = deque([])
@@ -71,6 +67,9 @@ if __name__ == '__main__':
     max_follows = 20                     # how many follows to collect per user
     max_bfs_add = 25                     # how many BFS edges to add per user
     max_collect_media = 100
+    max_collect_users = 20
+    verbose = True
+    collect_media_flag = 2 
 
     client_id = ' '          # user your client id
     client_secret = ' '      # user your client secret id
