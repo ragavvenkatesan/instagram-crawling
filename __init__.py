@@ -71,12 +71,13 @@ if __name__ == '__main__':
     verbose = True                       # Don't be a silent code and keep printing stuff. 
     collect_media_flag = 2               # =2 means collect images and everything, = 1 means collect only images, = 0 means just collect information. 
 
-    client_id = ' '          # user your client id
-    client_secret = ' '      # user your client secret id
+    client_id = '583912255f464f048f537ce99874ecae'          # user your client id
+    client_secret = '9b72087aca994592b81b52700909f5f4'      # user your client secret id
     redirect_uri = 'http://localhost'                       # user your redirect_uri
     
-    # start with someone popular and usually followed by a lot of people. 
-    begin_user_id = '460563723' # - Selena Gomez
+    # start with someone popular and usually followed by a lot of people.
+    begin_user_id = '675941218' 
+    #begin_user_id = '460563723' # - Selena Gomez
     #begin_user_id = '19185689' # - Kayley Cuoco
     #begin_user_id = '1513623915' # - Ragav - Zero followers, zero following
     #begin_user_id = '18428658' # - Kim Kardashian
